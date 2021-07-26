@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/et_firstname"
+        style="@style/MainEditTextLayout"
+
+        android:hint="@string/firstName"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:paddingTop="24dp" />
+
+    <EditText
+        android:id="@+id/lastName_et"
+        style="@style/MainEditTextLayout"
+
+        android:hint="@string/lastName"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/phoneNumber_et"
+        style="@style/MainEditTextLayout"
+
+        android:hint="@string/phone_number"
+        android:importantForAutofill="no"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/btn_add_contact"
+
+        style="@style/MainButtonLayout.addContact"
+        android:text="@string/add_contact"
+        android:textSize="18sp" />
+
+</LinearLayout>

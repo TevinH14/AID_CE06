@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">HamiltonTevin_CE06</string>
+    <string name="todo">TODO</string>
+    <string name="display_empty">The are no people to display.</string>
+    <string name="firstName">FirstName</string>
+    <string name="lastName">LastName</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="add_contact">Add Contact</string>
+    <string name="back">Back</string>
+    <string name="wrongInput">one of the input fields is empty</string>
+    <string name="wrongMaxNumber">phone number input field should have 10 numbers</string>
+</resources>
